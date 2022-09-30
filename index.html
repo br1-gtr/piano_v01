@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/style.css">
+    <title>Piano</title>
+</head>
+<body>
+    <main class="container flex">
+        <div class="piano flex">
+            <div class="keys">
+                <div class="key note" id="b" data-freq="B5"></div>
+                <div class="key note" id="a" data-freq="A5">
+                    <div class="black-key note" id="bb" data-freq="A#5"></div>
+                    </div>
+                <div class="key note" id="g" data-freq="G4">
+                    <div class="black-key note" id="ab" data-freq="G#4"></div>
+                    </div>
+                <div class="key note" id="f" data-freq="F4">
+                    <div class="black-key note" id="gb" data-freq="F#4"></div>
+                    </div>
+                <div class="key note" id="e" data-freq="E4">
+                    </div>
+                <div class="key note" id="d" data-freq="D4">
+                    <div class="black-key note" id="eb" data-freq="D#4"></div>
+                    </div>
+                <div class="key note" id="c" data-freq="C4">
+                    <div class="black-key note" id="db" data-freq="C#4"></div>
+                    </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/p5.min.js"></script>
+    <script src="./js/p5.sound.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

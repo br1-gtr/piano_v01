@@ -1,0 +1,50 @@
+#defaultCanvas0{
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    min-width: 385px;
+    min-height: 460px;
+}
+main{
+    padding: 3px;
+    background-color: orange;
+    width: 100%;
+    min-width: 100vw;
+    height: 100vh;
+}
+.piano{
+    padding: 2px;
+    width: 360px;
+    background-color: rgb(78, 78, 78);
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: end;
+    .keys{
+        .key{
+            width: 330px;
+            height: 65px;
+            background-color: rgb(0, 0, 0);
+            border: 1px solid yellow;
+            border-radius: 0px 8px 8px 0px;
+        }
+        .black-key{
+            width: 160px;
+            height: 60px;
+            color:white;
+            background-color: yellow;
+            border: 1px solid yellow;
+            border-radius: 0px 10px 10px 0px;
+            position:relative;
+            top: -30px;    
+        }
+    }
+}
